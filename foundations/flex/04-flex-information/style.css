@@ -12,7 +12,6 @@ img {
   font-weight: 900;
 }
 
-/* do not edit this footer */
 .footer {
   position: fixed;
   bottom: 0;
@@ -23,4 +22,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
 }
